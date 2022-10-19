@@ -1,0 +1,12 @@
+function[NumL]=Question8(Num1,Num2)
+NumVec=[Num1,Num2];
+SNumVec=sort(NumVec);
+NumH=SNumVec(1,2);
+NumL=SNumVec(1,1);
+NumDiff=NumH-NumL;
+for i=1:NumDiff 
+    NumL=NumL+1;
+    disp(NumL)
+    pause(0.5)
+end 
+end
